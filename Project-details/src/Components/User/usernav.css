@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: #00828c;
+    color: aliceblue;
+  }
+  
+  .logo {
+    font-size: 30px;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    list-style: none;
+    margin-right: 20px; /* Add margin to separate the links from the logo */
+    margin-top: 0%;
+  }
+  
+  
+  .home {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
